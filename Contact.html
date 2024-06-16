@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aja & Gaucho - Contact</title>
+    <style>
+        .contact-inputs {
+            color:black;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight:500;
+            font-size: 18px;
+            border-radius: 5px;
+            line-height: 22px;
+            background-color: transparent;
+            border:2px solid #9f1d20;
+            transition: all 0.3s;
+            padding: 13px;
+            margin-bottom: 15px;
+            width:100%;
+            box-sizing: border-box;
+            outline:0;
+        }
+
+        .contact-inputs:focus { border:2px solid #9f1d20; }
+
+        [type="submit"] {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            background:#9f1d20;
+            border-radius:5px;
+            border:0;
+            cursor:pointer;
+            color:white;
+            font-size:24px;
+            padding-top:10px;
+            padding-bottom:10px;
+            transition: all 0.3s;
+            font-weight:700;
+        }
+        [type="submit"]:hover { background:#CC4949; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <!-- <h1 class='top-page-header'>Aja & Gaucho - Reviews</h1> -->
+</head>
+
+
+<body>
+    <div class="fullpage">
+        <div class="topnav">
+            <a href="file:///C:/Users/cmead/OneDrive/Desktop/Tufts%20MS/CS%20120/Project%201/Home.html">Home</a>
+            <a href="file:///C:/Users/cmead/OneDrive/Desktop/Tufts%20MS/CS%20120/Project%201/About.html">About</a>
+            <a href="file:///C:/Users/cmead/OneDrive/Desktop/Tufts%20MS/CS%20120/Project%201/Reviews.html">Reviews</a>
+            <a href="file:///C:/Users/cmead/OneDrive/Desktop/Tufts%20MS/CS%20120/Project%201/Songs.html">Songs We Play</a>
+            <a class="active" href="file:///C:/Users/cmead/OneDrive/Desktop/Tufts%20MS/CS%20120/Project%201/Contact.html">Contact</a>
+        </div>
+        <div>
+            <h2>Contact</h2>
+            <h4>Let Us Play your Event!</h4>
+            <form>
+                <input class="contact-inputs" type="text" id="fname" name="fname" placeholder="Name"><br><br>
+    
+                <input class="contact-inputs" type="text" id="email" name="city" placeholder="Email"><br><br>
+
+                <textarea name="text" class="contact-inputs" placeholder="Your Message"></textarea>
+    
+                <input class="contact-inputs" type="submit" value="Submit">
+            </form>
+
+        </div>
+    </div>
+    
+
+
+</body>
+<footer>
+    <p>Author: Conor Meade</p>
+    <p><a href="mailto:cm@example.com">cm@example.com</a></p>
+</footer>
