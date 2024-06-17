@@ -32,6 +32,9 @@
 
 .aboutbio {
     text-align: justify;
+    max-width: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .topnav {
@@ -145,7 +148,8 @@ ul {
 
 li {
     font-size: medium;
-    color: #6fa8a2;
+    color: 	#2794b3;
+    text-decoration: underline black;
     padding: 1.5%;
 }
 
